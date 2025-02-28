@@ -1,9 +1,89 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Page-1" id="0wOkrVP3csroepFKxfg5">
-    <mxGraphModel>
+    <mxGraphModel dx="1379" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="j-jOkeOCwelDXPwPtteb-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="110" y="310" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j-jOkeOCwelDXPwPtteb-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="j-jOkeOCwelDXPwPtteb-1" parent="1" target="j-jOkeOCwelDXPwPtteb-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="340" as="targetPoint" />
+            <mxPoint x="150" y="325" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-jOkeOCwelDXPwPtteb-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="j-jOkeOCwelDXPwPtteb-3" target="j-jOkeOCwelDXPwPtteb-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-jOkeOCwelDXPwPtteb-5" value="[presDate?]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="j-jOkeOCwelDXPwPtteb-4">
+          <mxGeometry x="0.0041" y="1" relative="1" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-jOkeOCwelDXPwPtteb-3" value="Prepare Presentation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="295" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-jOkeOCwelDXPwPtteb-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="j-jOkeOCwelDXPwPtteb-6" target="j-jOkeOCwelDXPwPtteb-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-jOkeOCwelDXPwPtteb-6" value="Give Presentation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="295" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-jOkeOCwelDXPwPtteb-7" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="680" y="310" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j-jOkeOCwelDXPwPtteb-10" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="110" y="405" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="j-jOkeOCwelDXPwPtteb-11" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="j-jOkeOCwelDXPwPtteb-10" target="j-jOkeOCwelDXPwPtteb-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="435" as="targetPoint" />
+            <mxPoint x="150" y="420" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-jOkeOCwelDXPwPtteb-18" value="firstLecture/&lt;br&gt;missed=0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="j-jOkeOCwelDXPwPtteb-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-jOkeOCwelDXPwPtteb-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="j-jOkeOCwelDXPwPtteb-14" target="j-jOkeOCwelDXPwPtteb-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-jOkeOCwelDXPwPtteb-13" value="attend?" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="j-jOkeOCwelDXPwPtteb-12">
+          <mxGeometry x="0.0041" y="1" relative="1" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-jOkeOCwelDXPwPtteb-14" value="AttendLecture_1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-jOkeOCwelDXPwPtteb-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="j-jOkeOCwelDXPwPtteb-16" target="j-jOkeOCwelDXPwPtteb-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-jOkeOCwelDXPwPtteb-23" value="endOfTerm" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="j-jOkeOCwelDXPwPtteb-15">
+          <mxGeometry x="-0.08" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-jOkeOCwelDXPwPtteb-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="j-jOkeOCwelDXPwPtteb-16" target="j-jOkeOCwelDXPwPtteb-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-jOkeOCwelDXPwPtteb-22" value="missed&amp;lt;2?" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="j-jOkeOCwelDXPwPtteb-21">
+          <mxGeometry x="-0.16" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-jOkeOCwelDXPwPtteb-16" value="AttendLecture_2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-jOkeOCwelDXPwPtteb-17" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="680" y="405" width="30" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
